@@ -72,6 +72,17 @@
       box-shadow: 0 3px 12px #10243e12;
     }
 
+    .profile-photo {
+      display: block;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      object-position: center 25%;
+      border-radius: 50%;
+      margin: 0 auto 22px;
+      border: 4px solid #e5eefb;
+    }
+
     .tag {
       display: inline-block;
       background: #e5eefb;
@@ -121,6 +132,11 @@
         display: inline-block;
         margin: 5px;
       }
+
+      .profile-photo {
+        width: 150px;
+        height: 150px;
+      }
     }
   </style>
 </head>
@@ -144,7 +160,14 @@
 
     <section id="about">
       <h2>About Me</h2>
+
       <div class="card">
+        <img
+          src="profile.png"
+          alt="Portrait of Amodu Ojonugwa Godswill"
+          class="profile-photo"
+        >
+
         <p>
           I am a Statistics graduate with training in Data Analysis
           and Visualization. I use data analysis, statistical methods,
@@ -162,6 +185,7 @@
 
     <section id="skills">
       <h2>Technical Skills</h2>
+
       <div class="card">
         <span class="tag">Python</span>
         <span class="tag">Pandas</span>
@@ -210,6 +234,39 @@
            rel="noopener noreferrer">
           View Project on GitHub
         </a>
+      </div>
+
+      <div class="card">
+        <h3>NYSC Deployment Pattern in Nigeria (2012–2021)</h3>
+
+        <p>
+          A capstone data analysis project examining the deployment
+          patterns of National Youth Service Corps members across
+          Nigeria over a ten-year period.
+        </p>
+
+        <p>
+          <strong>Dataset:</strong> 19,278 corps members across
+          37 state-level deployment areas, covering 2012–2021.
+        </p>
+
+        <p>
+          <strong>Key Finding:</strong> The five states with the
+          highest deployment numbers accounted for approximately
+          39% of total deployments.
+        </p>
+
+        <p>
+          The project also examined deployment distribution by
+          state and gender to identify patterns in the data.
+        </p>
+
+        <p>
+          <strong>Skills:</strong> Data Cleaning, Exploratory Data
+          Analysis, Statistical Analysis, Data Visualization
+        </p>
+
+        <!-- Add a GitHub project link here when the project repository is ready. -->
       </div>
     </section>
 
